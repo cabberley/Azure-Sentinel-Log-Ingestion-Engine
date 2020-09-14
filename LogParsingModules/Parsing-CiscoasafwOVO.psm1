@@ -76,7 +76,7 @@ Function Convertto-KVCiscoASA {
 
     return $pairs
 }
-# Convertto-KV '<188>Aug 11 2020 00:00:06: %ASA-4-106023: Deny icmp src Internet:202.77.116.49 dst inside:10.50.240.33 (type 11, code 0) by access-group "Internet_access_in" [0x0, 0x0]'
+
 Function ParseInstructions {
     Param($LogFile)
 
